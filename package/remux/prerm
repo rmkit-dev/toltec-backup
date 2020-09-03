@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Disabling remux"
+systemctl enable remux
+systemctl start remux
