@@ -3,6 +3,7 @@ pkgname=draft
 pkgver=0.2.0-4
 pkgdesc="Launcher for the reMarkable tablet which wraps around the standard interface"
 section=remarkable-launchers
+conflicts=oxide
 maintainer="Mattéo Delabre <spam@delab.re>"
 license=Apache
 
