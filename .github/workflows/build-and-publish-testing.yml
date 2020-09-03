@@ -15,6 +15,6 @@ jobs:
               uses: ./.github/actions/build-and-publish
               env:
                   REMOTE: ${{ secrets.REMOTE }}
-                  REMOTE_PATH: /srv/toltec/testing
+                  REMOTE_PATH: ${{ secrets.REMOTE_PATH }}/testing
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
                   SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
