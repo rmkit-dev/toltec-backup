@@ -27,7 +27,7 @@ build_button_capture() {
 
 
 build_erode() {
-    pushd applications/erode/
+    pushd applications/process-manager/
     qmake erode.pro -spec linux-oe-g++
     make
     popd
