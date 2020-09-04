@@ -26,7 +26,7 @@ build_button_capture() {
 }
 
 
-build_button_capture() {
+build_erode() {
     pushd applications/erode/
     qmake erode.pro -spec linux-oe-g++
     make
