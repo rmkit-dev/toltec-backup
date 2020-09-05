@@ -1,6 +1,6 @@
 # vim: set ft=sh:
 pkgname=oxide
-pkgver=0.0.0-2
+pkgver=0.0.0-3
 pkgdesc="Launcher for the reMarkable tablet which wraps around the standard interface"
 section=launcher
 provides=launcher
@@ -9,7 +9,7 @@ maintainer="raisjn<of.rajsn@gmail.com>"
 license=Apache
 
 origin=https://github.com/Eeems/oxide
-revision=dfdfcdbfe1760eb11f108c3d94347c82d072f360
+revision=d1b7aa313d0b4402d7c4ad0909102aefc2aae225
 
 build_oxide() {
     pushd "$srcdir"/applications/oxide/
